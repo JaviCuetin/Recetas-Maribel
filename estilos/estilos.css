@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 210%;
+    font-family: 'roboto';
+}
+
+.imagenLogo {
+    width: 40%;
+    height: 100%;
+}
+
+header {
+    height: 5%;
+    width: 100%;
+    background-color: #9A351F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: 20px;
+}
+
+.logo {
+    font-family: 'autour one';
+    font-size: 30px;
+    color: white;
+    letter-spacing: 20px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    scale: 1.15;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+            color: green; 
+            text-decoration: none;
+            opacity: 0.6;
+}
+a:hover {
+            color: red;
+            text-decoration: underline;
+            opacity: 0.6;
+}
+a:active {
+            color: blue;
+            text-decoration: none;
+            opacity: 0.6;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu1 {
+    background-color: #2A2D34;
+    height: 2%;
+    width: 100%;
+}
+
+.menuHorizontal {
+    padding: 0px;
+    display: flex;
+    height: 100%;
+}
+
+.menu1 li {
+    flex-grow: 1;
+}
+
+.menu1 li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu1 li a:hover {
+    background-color: #5C946E;
+    transition-property: calc();
+
+}
+
+.contenedorPrincipal {
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.contenedorPrincipalFormulario {
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    padding-top: 50px;
+}
+
+section p {
+    text-align: justify;
+}
+
+.inicio {
+    width: 100%;
+}
+
+.inicio h2 {
+    text-align: center;
+}
+
+.fila {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.img1 {
+    width: 70%;
+    height: 70%;
+    left: 20;
+}
+
+.fila2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.fila3 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.fila4 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.fila3 h3 {
+    margin-right: 20px;
+}
+
+.fila li {
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+tr,
+td {
+    border: 1px solid black;
+}
+
+.redes img {
+    width: 20px;
+}
+
+.redes li {
+    list-style-type: decimal;
+}
